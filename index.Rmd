@@ -1,0 +1,36 @@
+---
+title:
+author: "cjlortie"
+date: "2017"
+output:
+  html_document:
+    theme: spacelab
+    toc: yes
+    toc_depth: 3
+    toc_float: yes
+  pdf_document:
+    toc: yes
+---
+#Phenotypic plasticity in yst
+###Purpose
+To formally review the research to date on the phenotypic plasticity of the invasive plant species Centaurea solstitialis.
+<br>
+
+![](./yst.jpg)
+<br>
+
+Ramona Irimia and Daniel Montesinos lead on primary research analyses.
+
+###meta-data
+```{r loads, warning=FALSE, message=FALSE}
+library(tidyverse)
+
+
+```
+
+###data wrangle
+
+###review summary
+
+
+###data viz
