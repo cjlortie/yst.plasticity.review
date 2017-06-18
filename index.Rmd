@@ -22,15 +22,25 @@ To formally review the research to date on the phenotypic plasticity of the inva
 Ramona Irimia and Daniel Montesinos lead on primary research analyses.
 
 ###meta-data
-```{r loads, warning=FALSE, message=FALSE}
+```{r meta-data, warning=FALSE, message=FALSE}
 library(tidyverse)
 
 
 ```
 
 ###data wrangle
+```{r data, warning=FALSE, message=FALSE}
+data <- read_csv("data/lit.data.csv")
+data
+
+```
 
 ###review summary
 
 
 ###data viz
+```{r viz, warning=FALSE, message=FALSE}
+ggplot(data, aes(Ecosystem, fill = hypothesis)) + geom_bar()
+
+
+```
